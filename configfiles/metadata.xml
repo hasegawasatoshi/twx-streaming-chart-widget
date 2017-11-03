@@ -12,11 +12,9 @@
                 <FileResource description="Chart widget for live streaming data." file="streaming_chart.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
                 <FileResource description="Chart widget for live streaming data." file="streaming_chart.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
                 <FileResource description="moment.js" file="include/moment.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
-                <!--
                 <FileResource description="Chart.js" file="include/Chart.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
                 <FileResource description="Chart.js" file="include/Chart.bundle.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
                 <FileResource description="chartjs-plugin-streaming.js" file="include/chartjs-plugin-streaming.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
-                -->
             </UIResources>
         </Widget>
     </Widgets>
