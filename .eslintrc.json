@@ -1,0 +1,18 @@
+{
+  "extends": ["eslint:recommended"],
+  "plugins": [],
+  "parserOptions": {},
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "TW": false,
+    "d3": false
+  },
+  "rules": {
+    "no-unused-vars": [1, {
+      "vars": "all",
+      "args": "after-used"
+    }]
+  }
+}
