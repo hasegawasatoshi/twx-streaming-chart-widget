@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <ExtensionPackages>
-        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.0.6" name="StreamingChartWidget" packageVersion="0.0.1" vendor=""> 
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.0.6" name="StreamingChartWidget" packageVersion="0.0.1" vendor="">
         </ExtensionPackage>
     </ExtensionPackages>
     <Widgets>
@@ -11,6 +11,10 @@
                 <FileResource description="Chart widget for live streaming data." file="streaming_chart.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
                 <FileResource description="Chart widget for live streaming data." file="streaming_chart.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
                 <FileResource description="Chart widget for live streaming data." file="streaming_chart.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource description="moment.js" file="includ/moment.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="Chart.js" file="includ/Chart.bundle.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="Chart.js" file="includ/Chart.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="chartjs-plugin-streaming.js" file="chartjs-plugin-streaming.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
             </UIResources>
         </Widget>
     </Widgets>
